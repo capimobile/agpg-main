@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{QUERY_STRING} ^(.*)$
+RewriteRule ^regsuccess$ confirmation.php?page=regis [L]
+Options All -Indexes
+</IfModule>
