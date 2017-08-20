@@ -3,7 +3,7 @@ session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 0);
 
-define("HTTP_HOST", "http://".$_SERVER['HTTP_HOST']."/dev-jakarta/");
+define("HTTP_HOST", "http://".$_SERVER['HTTP_HOST']."/jakarta/");
 
 define("DBPATH","localhost");
 define("DBUSER","agpg");
